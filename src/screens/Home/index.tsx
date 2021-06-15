@@ -1,12 +1,14 @@
 import React from 'react';
 import {View, Text} from 'react-native';
-import styles from './styles';
+
+import {Container} from './styles';
+import Header from '../../components/Header';
 
 function HomeScreen() {
   return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>Home Screen</Text>
-    </View>
+    <Container>
+      <Header />
+    </Container>
   );
 }
 export default HomeScreen;

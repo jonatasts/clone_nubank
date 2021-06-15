@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  flex: 1;
-  background: #8810ae;
+  align-items: center;
+  padding: 40px 0 30px;
 `;
