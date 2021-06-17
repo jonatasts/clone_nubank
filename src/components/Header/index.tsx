@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, TouchableOpacity} from 'react-native';
 
 import {Container, Top, Logo, Title} from './styles';
 
@@ -14,7 +14,9 @@ function Header() {
         <Logo source={logo} />
         <Title>Jônatas</Title>
       </Top>
-      <Icon name="keyboard-arrow-down" size={20} color={'#FFF'} />
+      <TouchableOpacity>
+        <Icon name="keyboard-arrow-down" size={20} color={'#FFF'} />
+      </TouchableOpacity>
     </Container>
   );
 }
