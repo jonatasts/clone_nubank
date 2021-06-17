@@ -12,6 +12,7 @@ target 'nubankApp' do
     :hermes_enabled => false
   )
 
+
   target 'nubankAppTests' do
     inherit! :complete
     # Pods for testing
