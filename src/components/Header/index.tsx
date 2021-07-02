@@ -14,9 +14,7 @@ function Header() {
         <Logo source={logo} />
         <Title>Jônatas</Title>
       </Top>
-      <TouchableOpacity>
-        <Icon name="keyboard-arrow-down" size={20} color={'#FFF'} />
-      </TouchableOpacity>
+      <Icon name="keyboard-arrow-down" size={20} color={'#FFF'} />
     </Container>
   );
 }
