@@ -1,5 +1,8 @@
 import React from 'react';
+
 import QRCode from 'react-native-qrcode-svg';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+
 import {
   Container,
   Code,
@@ -7,14 +10,18 @@ import {
   Navitem,
   NavText,
   SignOutbutton,
-  SignoutText,
+  SignOutbuttonText,
 } from './styles';
 
-import Icon from 'react-native-vector-icons/MaterialIcons';
-
-function Menu() {
+function Menu({translateY}) {
   return (
-    <Container>
+    <Container
+      style={{
+        opacity: translateY.interpolate({
+          inputRange: [0, 150],
+          outputRange: [0, 1],
+        }),
+      }}>
       <Code>
         <QRCode
           value="https://jonatassantos.vercel.app/"
@@ -23,6 +30,7 @@ function Menu() {
           backgroundColor="#8B10AE"
         />
       </Code>
+
       <Nav>
         <Navitem>
           <Icon name="help-outline" size={20} color={'#FFF'} />
@@ -45,8 +53,8 @@ function Menu() {
         </Navitem>
       </Nav>
 
-      <SignOutbutton>
-        <SignoutText>SAIR DO APP</SignoutText>
+      <SignOutbutton onPress={() => {}}>
+        <SignOutbuttonText>SAIR DO APP</SignOutbuttonText>
       </SignOutbutton>
     </Container>
   );
