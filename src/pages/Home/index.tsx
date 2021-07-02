@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import {Animated} from 'react-native';
+import {Animated, TouchableOpacity} from 'react-native';
 import {PanGestureHandler, State} from 'react-native-gesture-handler';
 
 import {Header} from '../../components';
@@ -17,13 +17,16 @@ import {
   CardFooter,
   Title,
   Description,
+  HideDescription,
   Annotation,
   SafeAreaView,
 } from './styles';
+import {useState} from 'react';
 
 function HomeScreen() {
   let offset = 0;
   const translateY = new Animated.Value(0);
+  const [isVisible, setIsVisible] = useState(true);
 
   const animatedEvent = Animated.event(
     [
@@ -62,7 +65,9 @@ function HomeScreen() {
       });
     }
   }
-
+  function onHandlerHideDescription() {
+    setIsVisible(!isVisible);
+  }
   return (
     <SafeAreaView>
       <Container>
@@ -88,11 +93,16 @@ function HomeScreen() {
               }}>
               <CardHeader>
                 <Icon name="attach-money" size={28} color={'#665'} />
-                <Icon name="visibility-off" size={28} color={'#665'} />
+                <TouchableOpacity
+                  activeOpacity={0.7}
+                  onPress={onHandlerHideDescription}>
+                  <Icon name="visibility-off" size={28} color={'#665'} />
+                </TouchableOpacity>
               </CardHeader>
               <CardContent>
                 <Title>Saldo disponível</Title>
-                <Description>R$ 304,52</Description>
+                {isVisible && <Description>R$ 304,52</Description>}
+                {!isVisible && <HideDescription />}
               </CardContent>
               <CardFooter>
                 <Annotation>

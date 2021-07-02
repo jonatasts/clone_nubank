@@ -12,7 +12,9 @@ export const TabsContainer = styled.ScrollView.attrs({
   showsHorizontalScrollIndicator: false,
 })``;
 
-export const TabItem = styled.View`
+export const TabItem = styled.TouchableOpacity.attrs({
+  activeOpacity: 0.8,
+})`
   width: 100px;
   height: 100px;
   background: rgba(255, 255, 255, 0.2);

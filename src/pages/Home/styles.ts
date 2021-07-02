@@ -1,6 +1,5 @@
 import {Animated} from 'react-native';
 import styled from 'styled-components/native';
-import {getStatusBarHeight} from 'react-native-iphone-x-helper';
 
 export const SafeAreaView = styled.SafeAreaView`
   flex: 1;
@@ -53,6 +52,14 @@ export const Description = styled.Text`
   font-size: 32px;
   margin-top: 3px;
   color: #333;
+`;
+
+export const HideDescription = styled.Text`
+  margin-top: 3px;
+  color: transparent;
+  background-color: #9995;
+  height: 39px;
+  width: 170px;
 `;
 
 export const CardFooter = styled.View`
