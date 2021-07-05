@@ -55,11 +55,11 @@ function HomeScreen() {
       }
 
       Animated.timing(translateY, {
-        toValue: opened ? 380 : 0,
+        toValue: opened ? 390 : 0,
         duration: 200,
         useNativeDriver: true,
       }).start(() => {
-        offset = opened ? 380 : 0;
+        offset = opened ? 390 : 0;
         translateY.setOffset(offset);
         translateY.setValue(0);
       });
@@ -84,8 +84,8 @@ function HomeScreen() {
                 transform: [
                   {
                     translateY: translateY.interpolate({
-                      inputRange: [-350, 0, 380],
-                      outputRange: [-50, 0, 380],
+                      inputRange: [-350, 0, 390],
+                      outputRange: [-50, 0, 390],
                       extrapolate: 'clamp',
                     }),
                   },
