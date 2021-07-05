@@ -9,7 +9,7 @@
 
 <br>
 
-<img src="scr/assets/clone-nubank.gif" height="450" width="250">
+<img src="scr/assets/clone_nubank.gif" height="450" width="250">
 
 <br>Projeto em React Native.<br>
 
