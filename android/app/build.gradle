@@ -131,7 +131,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.nubankapp"
+        applicationId "com.nubank_clone.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

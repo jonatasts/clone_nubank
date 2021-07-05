@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* nubankAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* nubankAppTests.m */; };
+		00E356F31AD99517003FC87E /* NubankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NubankTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		46D819632D07CCE8BD210882 /* libPods-nubankApp-nubankAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC864E818F3AFB35DD5CDDAC /* libPods-nubankApp-nubankAppTests.a */; };
+		46D819632D07CCE8BD210882 /* libPods-Nubank-NubankTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC864E818F3AFB35DD5CDDAC /* libPods-Nubank-NubankTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B1F00B55E731C263311F8C39 /* libPods-nubankApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E11B6C0DB06FB5BAA3EFBEA /* libPods-nubankApp.a */; };
+		B1F00B55E731C263311F8C39 /* libPods-Nubank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E11B6C0DB06FB5BAA3EFBEA /* libPods-Nubank.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = nubankApp;
+			remoteInfo = Nubank;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* nubankAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nubankAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* NubankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* nubankAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nubankAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* nubankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nubankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = nubankApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = nubankApp/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = nubankApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = nubankApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = nubankApp/main.m; sourceTree = "<group>"; };
-		2E11B6C0DB06FB5BAA3EFBEA /* libPods-nubankApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nubankApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7732528B2B9B627212721C7C /* Pods-nubankApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubankApp.debug.xcconfig"; path = "Target Support Files/Pods-nubankApp/Pods-nubankApp.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = nubankApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A003055C0CAF467A76CE8A96 /* Pods-nubankApp-nubankAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubankApp-nubankAppTests.debug.xcconfig"; path = "Target Support Files/Pods-nubankApp-nubankAppTests/Pods-nubankApp-nubankAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C43CB66FC03ECFAA0291196B /* Pods-nubankApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubankApp.release.xcconfig"; path = "Target Support Files/Pods-nubankApp/Pods-nubankApp.release.xcconfig"; sourceTree = "<group>"; };
-		D60B110FA84A62454934BD07 /* Pods-nubankApp-nubankAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubankApp-nubankAppTests.release.xcconfig"; path = "Target Support Files/Pods-nubankApp-nubankAppTests/Pods-nubankApp-nubankAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* NubankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NubankTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Nubank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nubank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Nubank/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Nubank/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Nubank/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Nubank/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Nubank/main.m; sourceTree = "<group>"; };
+		2E11B6C0DB06FB5BAA3EFBEA /* libPods-Nubank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Nubank.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7732528B2B9B627212721C7C /* Pods-Nubank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nubank.debug.xcconfig"; path = "Target Support Files/Pods-Nubank/Pods-Nubank.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Nubank/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A003055C0CAF467A76CE8A96 /* Pods-Nubank-NubankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nubank-NubankTests.debug.xcconfig"; path = "Target Support Files/Pods-Nubank-NubankTests/Pods-Nubank-NubankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C43CB66FC03ECFAA0291196B /* Pods-Nubank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nubank.release.xcconfig"; path = "Target Support Files/Pods-Nubank/Pods-Nubank.release.xcconfig"; sourceTree = "<group>"; };
+		D60B110FA84A62454934BD07 /* Pods-Nubank-NubankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nubank-NubankTests.release.xcconfig"; path = "Target Support Files/Pods-Nubank-NubankTests/Pods-Nubank-NubankTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FC864E818F3AFB35DD5CDDAC /* libPods-nubankApp-nubankAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nubankApp-nubankAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC864E818F3AFB35DD5CDDAC /* libPods-Nubank-NubankTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Nubank-NubankTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D819632D07CCE8BD210882 /* libPods-nubankApp-nubankAppTests.a in Frameworks */,
+				46D819632D07CCE8BD210882 /* libPods-Nubank-NubankTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F00B55E731C263311F8C39 /* libPods-nubankApp.a in Frameworks */,
+				B1F00B55E731C263311F8C39 /* libPods-Nubank.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* nubankAppTests */ = {
+		00E356EF1AD99517003FC87E /* NubankTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* nubankAppTests.m */,
+				00E356F21AD99517003FC87E /* NubankTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = nubankAppTests;
+			path = NubankTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* nubankApp */ = {
+		13B07FAE1A68108700A75B9A /* Nubank */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,16 +93,16 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = nubankApp;
+			name = Nubank;
 			sourceTree = "<group>";
 		};
 		21DCC786C4A95CBC4E763FFB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7732528B2B9B627212721C7C /* Pods-nubankApp.debug.xcconfig */,
-				C43CB66FC03ECFAA0291196B /* Pods-nubankApp.release.xcconfig */,
-				A003055C0CAF467A76CE8A96 /* Pods-nubankApp-nubankAppTests.debug.xcconfig */,
-				D60B110FA84A62454934BD07 /* Pods-nubankApp-nubankAppTests.release.xcconfig */,
+				7732528B2B9B627212721C7C /* Pods-Nubank.debug.xcconfig */,
+				C43CB66FC03ECFAA0291196B /* Pods-Nubank.release.xcconfig */,
+				A003055C0CAF467A76CE8A96 /* Pods-Nubank-NubankTests.debug.xcconfig */,
+				D60B110FA84A62454934BD07 /* Pods-Nubank-NubankTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -111,8 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				2E11B6C0DB06FB5BAA3EFBEA /* libPods-nubankApp.a */,
-				FC864E818F3AFB35DD5CDDAC /* libPods-nubankApp-nubankAppTests.a */,
+				2E11B6C0DB06FB5BAA3EFBEA /* libPods-Nubank.a */,
+				FC864E818F3AFB35DD5CDDAC /* libPods-Nubank-NubankTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,7 +122,6 @@
 			children = (
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -135,9 +134,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* nubankApp */,
+				13B07FAE1A68108700A75B9A /* Nubank */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* nubankAppTests */,
+				00E356EF1AD99517003FC87E /* NubankTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				21DCC786C4A95CBC4E763FFB /* Pods */,
@@ -151,8 +150,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* nubankApp.app */,
-				00E356EE1AD99517003FC87E /* nubankAppTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Nubank.app */,
+				00E356EE1AD99517003FC87E /* NubankTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* nubankAppTests */ = {
+		00E356ED1AD99517003FC87E /* NubankTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "nubankAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NubankTests" */;
 			buildPhases = (
 				28B702395515C3E5A55B12EA /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -176,14 +175,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = nubankAppTests;
-			productName = nubankAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* nubankAppTests.xctest */;
+			name = NubankTests;
+			productName = NubankTests;
+			productReference = 00E356EE1AD99517003FC87E /* NubankTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* nubankApp */ = {
+		13B07F861A680F5B00A75B9A /* Nubank */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "nubankApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Nubank" */;
 			buildPhases = (
 				D1B0D708F9379F5153BF3680 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -198,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = nubankApp;
-			productName = nubankApp;
-			productReference = 13B07F961A680F5B00A75B9A /* nubankApp.app */;
+			name = Nubank;
+			productName = Nubank;
+			productReference = 13B07F961A680F5B00A75B9A /* Nubank.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "nubankApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Nubank" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -233,8 +232,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* nubankApp */,
-				00E356ED1AD99517003FC87E /* nubankAppTests */,
+				13B07F861A680F5B00A75B9A /* Nubank */,
+				00E356ED1AD99517003FC87E /* NubankTests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +287,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-nubankApp-nubankAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Nubank-NubankTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -301,15 +300,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nubankApp/Pods-nubankApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Nubank/Pods-Nubank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nubankApp/Pods-nubankApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Nubank/Pods-Nubank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nubankApp/Pods-nubankApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nubank/Pods-Nubank-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4219EB88B539C0BCAA3BE994 /* [CP] Copy Pods Resources */ = {
@@ -318,15 +317,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nubankApp/Pods-nubankApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Nubank/Pods-Nubank-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nubankApp/Pods-nubankApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Nubank/Pods-Nubank-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nubankApp/Pods-nubankApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nubank/Pods-Nubank-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		93641B94E3D73178CC3C35B7 /* [CP] Embed Pods Frameworks */ = {
@@ -335,15 +334,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nubankApp-nubankAppTests/Pods-nubankApp-nubankAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Nubank-NubankTests/Pods-Nubank-NubankTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nubankApp-nubankAppTests/Pods-nubankApp-nubankAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Nubank-NubankTests/Pods-Nubank-NubankTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nubankApp-nubankAppTests/Pods-nubankApp-nubankAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nubank-NubankTests/Pods-Nubank-NubankTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C4C5C47AB69AEB7A58DED1D3 /* [CP] Copy Pods Resources */ = {
@@ -352,15 +351,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nubankApp-nubankAppTests/Pods-nubankApp-nubankAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Nubank-NubankTests/Pods-Nubank-NubankTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nubankApp-nubankAppTests/Pods-nubankApp-nubankAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Nubank-NubankTests/Pods-Nubank-NubankTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nubankApp-nubankAppTests/Pods-nubankApp-nubankAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nubank-NubankTests/Pods-Nubank-NubankTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D1B0D708F9379F5153BF3680 /* [CP] Check Pods Manifest.lock */ = {
@@ -378,7 +377,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-nubankApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Nubank-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -411,7 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* nubankAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* NubankTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +428,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* nubankApp */;
+			target = 13B07F861A680F5B00A75B9A /* Nubank */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,14 +436,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A003055C0CAF467A76CE8A96 /* Pods-nubankApp-nubankAppTests.debug.xcconfig */;
+			baseConfigurationReference = A003055C0CAF467A76CE8A96 /* Pods-Nubank-NubankTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = nubankAppTests/Info.plist;
+				INFOPLIST_FILE = NubankTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,17 +457,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nubankApp.app/nubankApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nubank.app/Nubank";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D60B110FA84A62454934BD07 /* Pods-nubankApp-nubankAppTests.release.xcconfig */;
+			baseConfigurationReference = D60B110FA84A62454934BD07 /* Pods-Nubank-NubankTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = nubankAppTests/Info.plist;
+				INFOPLIST_FILE = NubankTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,19 +481,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nubankApp.app/nubankApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nubank.app/Nubank";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7732528B2B9B627212721C7C /* Pods-nubankApp.debug.xcconfig */;
+			baseConfigurationReference = 7732528B2B9B627212721C7C /* Pods-Nubank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = nubankApp/Info.plist;
+				INFOPLIST_FILE = Nubank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -504,8 +503,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nubank.app;
-				PRODUCT_NAME = nubankApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nubank-clone.app";
+				PRODUCT_NAME = Nubank;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -514,12 +513,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C43CB66FC03ECFAA0291196B /* Pods-nubankApp.release.xcconfig */;
+			baseConfigurationReference = C43CB66FC03ECFAA0291196B /* Pods-Nubank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = nubankApp/Info.plist;
+				INFOPLIST_FILE = Nubank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,8 +528,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nubank.app;
-				PRODUCT_NAME = nubankApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nubank-clone.app";
+				PRODUCT_NAME = Nubank;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -662,7 +661,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "nubankAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NubankTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -671,7 +670,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "nubankApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Nubank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -680,7 +679,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "nubankApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Nubank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

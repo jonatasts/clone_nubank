@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface nubankAppTests : XCTestCase
+@interface NubankTests : XCTestCase
 
 @end
 
-@implementation nubankAppTests
+@implementation NubankTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

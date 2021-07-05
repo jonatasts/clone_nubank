@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "nubankApp.app"
-               BlueprintName = "nubankApp"
-               ReferencedContainer = "container:nubankApp.xcodeproj">
+               BuildableName = "Nubank.app"
+               BlueprintName = "Nubank"
+               ReferencedContainer = "container:Nubank.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "nubankAppTests.xctest"
-               BlueprintName = "nubankAppTests"
-               ReferencedContainer = "container:nubankApp.xcodeproj">
+               BuildableName = "NubankTests.xctest"
+               BlueprintName = "NubankTests"
+               ReferencedContainer = "container:Nubank.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "nubankApp.app"
-            BlueprintName = "nubankApp"
-            ReferencedContainer = "container:nubankApp.xcodeproj">
+            BuildableName = "Nubank.app"
+            BlueprintName = "Nubank"
+            ReferencedContainer = "container:Nubank.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "nubankApp.app"
-            BlueprintName = "nubankApp"
-            ReferencedContainer = "container:nubankApp.xcodeproj">
+            BuildableName = "Nubank.app"
+            BlueprintName = "Nubank"
+            ReferencedContainer = "container:Nubank.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
