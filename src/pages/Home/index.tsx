@@ -27,6 +27,7 @@ function HomeScreen() {
   let offset = 0;
   const translateY = new Animated.Value(0);
   const [isVisible, setIsVisible] = useState(true);
+  const [iconVisible, setIconVisible] = useState('visibility-off');
 
   const animatedEvent = Animated.event(
     [
@@ -67,6 +68,8 @@ function HomeScreen() {
   }
   function onHandlerHideDescription() {
     setIsVisible(!isVisible);
+
+    isVisible ? setIconVisible('visibility') : setIconVisible('visibility-off');
   }
   return (
     <SafeAreaView>
@@ -96,7 +99,7 @@ function HomeScreen() {
                 <TouchableOpacity
                   activeOpacity={0.7}
                   onPress={onHandlerHideDescription}>
-                  <Icon name="visibility-off" size={28} color={'#665'} />
+                  <Icon name={iconVisible} size={28} color={'#665'} />
                 </TouchableOpacity>
               </CardHeader>
               <CardContent>
